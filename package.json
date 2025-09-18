@@ -1,0 +1,17 @@
+{
+  "name": "api-valores",
+  "version": "1.0.0",
+  "description": "API de ejemplo con Node.js y Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.use(express.json());
+
+// Import routes
+// const valoresRoutes = require('./src/routes/valores');
+// app.use('/valores', valoresRoutes);
+
+app.get('/', (req, res) => {
+  res.send('API Node.js funcionando');
+});
+
+app.listen(port, () => {
+  console.log(`Servidor escuchando en puerto ${port}`);
+});
